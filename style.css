@@ -1,0 +1,349 @@
+/* ==== ==== Poppins Google  Font ==== ==== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==== ====>> Universal Selector <<==== ==== */
+.poppins-thin 
+{
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* ==== ====>> Body Font Size << ==== ==== */
+html {
+    font-size: 10px;
+}
+
+/* ==== ====>> Css Variables << ==== ==== */
+:root {
+    /* ====>> Font Color <<==== */
+    --f1-color: #fff;
+    --f2-color: #000;
+    --f3-color: rgba(0, 0, 0, 0.8);
+    --f4-color: rgba(0, 0, 0, 0.6);
+    --f5-colors: #0099;
+    --f6-colors: #88cee6;
+
+    /* ====>> Background Color <<==== */
+    --bg1-color: #fff;
+    --bg2-color: #000;
+    --bg3-color: #33ccff;
+    --bg4-color: #33cc33;
+    --bg5-colors: #0099cc;
+    --bg6-colors: rgba(0, 0, 0, 0.4);
+    --bg7-colors: rgba(0, 0, 0, 0.2);
+    --glass-bg: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.3),
+    );
+    --c-lg-bg: linear-gradient(45deg, #ff3399, #ff9933);
+
+    /* ==== ====>> Font Size <<==== ==== */
+    --m-2-5: 5.5rem;
+    --xxl-fs: 3.8rem;
+    --xl-fs: 2.6rem;
+    --l-fs: 2.4rem;
+    --m-fs: 2.2rem;
+    --s-fs: 2.1rem;
+    --xs-fs: 3rem;
+
+    /* ====>> Margin <<==== */
+    --m-2-5: 2.5rem;
+    --m-1-8: 1.8rem;
+    --m-1-5: 1.5rem;
+    --m-0-6: 0.6rem;
+    --m-0-5: 0.5rem; 
+    --m-0-3: 0.3rem;
+
+    /* ====>> Padding <<==== */
+    --p-2-5: 2.5rem;
+    --p-1-5: 1.5rem;
+    --p-1-0: 1rem;
+    --p-0-4: 0.8rem;
+    --p-0-5: 0.5rem;
+    --p-0-4: 0.4rem;
+    --p-0-3: 0.3rem;
+}
+
+/* ==== ====>> Body Css <<==== ==== */
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ==== ====>> Body Main-Background Css <<==== ==== */
+.main_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(web_background.jpg);
+    background-position: center;
+    z-index: -1;
+    filter: blur(0px);
+
+}
+
+/* ==== ====>> Main-Container Css <<==== ==== */
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "header header"
+    "UserProfile userDetails"
+    "work_skills timeline_about"
+    "work_skills timeline_about";
+    width: 85%;
+    height: 90vh;
+    background: var(--glass-bg);
+    padding: var(--p-1-5);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 25px rgba(0, 0, 0, 0.08);
+    grid-gap: 1rem;
+}   
+
+/* ==== ====>> Container Cards Grid-Area Css Start <<==== ==== */
+.header
+{
+    grid-area: header;
+}
+
+.userprofile
+{
+    grid-area: userprofile;
+}
+
+.work_skills
+{
+    grid-area: work_skills;
+}
+
+.userDetails
+{
+    grid-area: userDetails;
+}
+
+.timeline_About
+{
+    grid-area: timeline_about;
+}
+/* ==== ====>> Container Card Css <<==== ==== */
+.container .card 
+{
+    background: var(--glass-bg);
+    backdrop-filter: blur(3rem);
+    border-radius: .5rem;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+    padding: var(--p-1-5);
+}
+
+
+
+/* ==== ====>> Container Header/Navbar Css <<==== ==== */
+
+/* ==== ====>> Navbar <<==== ==== */
+
+/* ==== ====>> User Main-Container Css Start <<==== ==== */
+.container .userprofile 
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.container .userprofile .profile figure img
+{
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+}
+
+/* ==== ====>> Work & Skill Css Start <<==== ==== */
+.container .work_skills 
+{
+  padding: var(--p-1-5);
+}
+
+.work_skills .work .heading,
+.work_skills .skills .heading 
+{
+  position: relative;
+  font-size: var(--xs-fs);
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  margin-bottom: var(--m-1-5);
+}
+
+.work_skills .work .heading,
+.work_skills .skills .heading 
+{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0.1rem;
+  width: 88%;
+  background: var(--bg6-colors);
+}
+
+.work_skills .work .primary,
+.work_skills .skills .secondary
+{
+  position: relative; 
+}
+
+.work_skills .work .primary h1,
+.work_skills .skills .secondary h1
+{
+  font-size: var(--l-fs);
+  color: var(--f3-color);
+  margin-bottom: var(--m-0-6);
+}
+
+.work_skills .work .primary span,
+.work_skills .skills .secondary span
+{
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  font-weight: 700;
+  font-size: var(--s-fs);
+  color: var(--f5-colors);
+  background: #e6f2ff;
+  padding: var(--p-0-4);
+  border-radius: 0.4rem;
+}
+
+.work_skills .work .primary p,
+.work_skills .skills .secondary p
+{
+  margin-bottom: var(--m-1-8);
+  font-size: var(--m-fs);
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.6rem;
+}
+
+/* ==== ====>> Skills Bars Css <<==== ==== */
+
+/* ==== ====>> User Details Css Start <<==== ==== */
+
+/* ==== ====>> Timeline & About Css Start <<==== ==== */
+
+
+
+
+
+
